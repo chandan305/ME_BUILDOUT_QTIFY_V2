@@ -1,12 +1,13 @@
 import React from "react";
-import "./Search.css";
+import styles from "./Search.module.css";
 
-const Search = () => {
+export default function Search() {
   return (
-    <div className="search-bar">
-      <input placeholder="Search" />
-    </div>
+    <input
+      type="search"
+      placeholder="Search a song"   // <-- FIXED AS REQUIRED
+      className={styles.searchInput}
+      aria-label="search"
+    />
   );
-};
-
-export default Search;
+}

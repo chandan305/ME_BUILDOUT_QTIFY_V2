@@ -1,0 +1,22 @@
+.navbar {
+  height: 74px;
+  background-color: #34C94B;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    padding: 0 32px;
+  }
+}
+
+.searchContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 0 16px;
+}

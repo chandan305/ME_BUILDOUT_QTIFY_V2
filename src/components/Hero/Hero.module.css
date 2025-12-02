@@ -1,0 +1,29 @@
+.hero {
+  display: flex;
+  align-items: center;         
+  justify-content: center;      
+  padding: 2rem;
+  background-color: black;
+  gap: 2rem;                   
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;      
+  justify-content: center;      
+  text-align: center;
+}
+
+.textContent h1 {
+  font-size: 1.8rem;            
+  margin: 0.3rem 0;             
+  font-weight: 600;
+  color: #FFFFFF; /* White color */
+}
+
+
+.imageContent img {
+  max-width: 300px;             /* Adjust image size */
+  width: 100%;
+  height: auto;
+}

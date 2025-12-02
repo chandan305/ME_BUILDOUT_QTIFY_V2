@@ -1,17 +1,15 @@
 import React from "react";
-import "./Navbar.css";
+import styles from "./Navbar.module.css";
 import Logo from "../Logo/Logo";
 import Search from "../Search/Search";
 import Button from "../Button/Button";
 
-const Navbar = () => {
+export default function Navbar() {
   return (
-    <div className="navbar">
+    <nav className={styles.navbar}>
       <Logo />
       <Search />
       <Button text="Give Feedback" />
-    </div>
+    </nav>
   );
-};
-
-export default Navbar;
+}

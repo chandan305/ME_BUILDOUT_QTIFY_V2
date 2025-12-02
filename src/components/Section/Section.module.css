@@ -1,0 +1,36 @@
+.section {
+  margin: 20px 0;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.collapseBtn {
+  background: none;
+  border: none;
+  color: #00ff00; /* green color */
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 4px 8px;
+}
+
+.collapseBtn:hover {
+  text-decoration: underline;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
