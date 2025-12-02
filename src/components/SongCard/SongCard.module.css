@@ -1,0 +1,39 @@
+.song-card {
+  width: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #1a1a1a;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.song-card:hover {
+  transform: scale(1.05);
+}
+
+.song-img-wrapper {
+  height: 180px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.song-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.song-info {
+  padding: 10px;
+}
+
+.song-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.song-likes {
+  font-size: 13px;
+  color: #c1c1c1;
+}
