@@ -11,7 +11,11 @@ import {
 
 function App() {
   return (
+<<<<<<< HEAD
     <div className="App" style={{ backgroundColor: "#000" }}>
+=======
+    <div className="App" style={{ backgroundColor: "#000", padding: "20px" }}>
+>>>>>>> 4ebb67960c40085aaa962f263308181885b66846
       <Navbar />
       <Hero />
 

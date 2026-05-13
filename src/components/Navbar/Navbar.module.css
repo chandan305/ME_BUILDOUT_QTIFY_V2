@@ -18,5 +18,9 @@
   flex: 1;
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
   /* padding: 0 16px; */
+=======
+  padding: 0 16px;
+>>>>>>> 4ebb67960c40085aaa962f263308181885b66846
 }

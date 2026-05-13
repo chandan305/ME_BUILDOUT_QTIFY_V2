@@ -1,3 +1,4 @@
+
 .card {
   width: 100%;
   height: 250px; /* pehle 310px tha */
@@ -35,4 +36,47 @@
   font-size: 16px;
   font-weight: 600;
   line-height: 1.2;
+}
+.wrapper {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card {
+  width: 100%;
+  height: 170px;
+  border-radius: 14px;
+  background-color: #1e1e1e;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.albumImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.followBadge {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: black;
+  color: white;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.albumTitle {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
