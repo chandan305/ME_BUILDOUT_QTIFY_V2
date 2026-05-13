@@ -13,3 +13,12 @@
 .button:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .button {
+    padding: 6px 10px;
+    font-size: 10px;
+    border-radius: 10px;
+  }
+}

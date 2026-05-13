@@ -7,12 +7,11 @@ export default function Search() {
     <div className={styles.searchContainer}>
       <input
         type="search"
-        placeholder="Search a album of your choice"
+        placeholder="Search a album"
         className={styles.searchInput}
       />
-
       <button className={styles.searchButton}>
-        <SearchIcon size={22} />
+        <SearchIcon size={18} />
       </button>
     </div>
   );

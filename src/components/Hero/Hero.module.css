@@ -16,7 +16,7 @@
 
 .textContent h1 {
   font-size: 1.8rem;            
-  margin: 0.3rem 0;             
+  /* margin: 0.3rem 0;              */
   font-weight: 600;
   color: #FFFFFF; /* White color */
 }
@@ -26,4 +26,47 @@
   max-width: 300px;           
   width: 100%;
   height: auto;
+}
+
+.textContent h1 {
+  font-size: 1.8rem;
+  margin: 0.3rem 0;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .textContent h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .imageContent img {
+  max-width: 100px;           
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  display: flex;
+  align-items: center;         
+  justify-content: center;      
+  padding: 2rem;
+  background-color: black;
+  gap: 20px;                   
+}
+
+
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .textContent h1 {
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: start;
+    /* margin: 0.5rem 0; */
+  }
+  
 }

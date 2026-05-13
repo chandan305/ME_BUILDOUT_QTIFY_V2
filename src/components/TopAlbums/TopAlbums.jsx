@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Carousel from "../Carousel/Carousel";
 import AlbumCard from "../AlbumCard/AlbumCard";
 import Grid from "../grid/Grid";
-import Grid from "../Grid/Grid";
 
 const TopAlbums = ({ albums }) => {
   const [collapsed, setCollapsed] = useState(true);

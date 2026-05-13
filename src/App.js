@@ -11,7 +11,7 @@ import {
 
 function App() {
   return (
-    <div className="App" style={{ backgroundColor: "#000", padding: "20px" }}>
+    <div className="App" style={{ backgroundColor: "#000"}}>
       <Navbar />
       <Hero />
 
