@@ -1,0 +1,13 @@
+.button {
+  background-color: black; /* Test: black variant */
+  color: #34C94B;         /* Test: green text */
+  padding: 10px 20px;
+  border-radius: 12px;    /* Test: border-radius required */
+  border: none;
+  font-family: 'Poppins', sans-serif; /* Test expects Poppins */
+  cursor: pointer;
+}
+
+.button:hover {
+  cursor: pointer;  /* Test: pointer on hover */
+}
