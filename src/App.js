@@ -11,11 +11,7 @@ import {
 
 function App() {
   return (
-<<<<<<< HEAD
-    <div className="App" style={{ backgroundColor: "#000" }}>
-=======
     <div className="App" style={{ backgroundColor: "#000", padding: "20px" }}>
->>>>>>> 4ebb67960c40085aaa962f263308181885b66846
       <Navbar />
       <Hero />
 
@@ -25,8 +21,7 @@ function App() {
       {/* New Albums Section */}
       <Section title="New Albums" fetchData={fetchNewAlbums} />
 
-      {/* Songs Section (Milestone-4) */}
-      {/* isSongs = true → Show All button hide, Tabs enable, Likes enable */}
+      {/* Songs Section */}
       <Section title="Songs" fetchData={fetchSongs} isSongs={true} />
     </div>
   );

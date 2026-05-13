@@ -13,12 +13,11 @@ export default function Carousel({ data = [], renderItem }) {
       <Swiper
         spaceBetween={20}
         slidesPerView={7}
-        slidesPerView={5}
         breakpoints={{
           320: { slidesPerView: 1 },
           480: { slidesPerView: 2 },
           768: { slidesPerView: 3 },
-          1024: { slidesPerView: 5 },
+          1024: { slidesPerView: 7 },
         }}
       >
         {data.map((item) => (

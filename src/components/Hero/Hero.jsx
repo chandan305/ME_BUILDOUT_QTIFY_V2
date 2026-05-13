@@ -1,10 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
-<<<<<<< HEAD
 import headphones from "../../assets/headphone.png";
-=======
-import headphones from "../../assets/headphones.png";
->>>>>>> 4ebb67960c40085aaa962f263308181885b66846
 
 export default function Hero() {
   return (
